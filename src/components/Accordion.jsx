@@ -41,6 +41,7 @@ export default function Accordion() {
         <div className="collapse-content text-lime-950">
           <p>Science Fiction Stories</p>
           <p>Sci-Fi Movies</p>
+          <p>Tech News</p>
         </div>
       </div>
     </div>
