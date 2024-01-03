@@ -1,6 +1,6 @@
 export default function Carousel() {
   return (
-    <div className="mt-5 mb-5">
+    <div className="m-4 text-center">
       <div className="carousel carousel-center rounded-box">
         <div className="carousel-item">
           <img
@@ -14,12 +14,12 @@ export default function Carousel() {
             alt="Pizza"
           />
         </div>
-        <div className="carousel-item">
+        {/* <div className="carousel-item">
           <img
             src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
             alt="Pizza"
           />
-        </div>
+        </div> */}
         <div className="carousel-item">
           <img
             src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
@@ -32,18 +32,18 @@ export default function Carousel() {
             alt="Pizza"
           />
         </div>
-        <div className="carousel-item">
+        {/* <div className="carousel-item">
           <img
             src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg"
             alt="Pizza"
           />
-        </div>
-        <div className="carousel-item">
+        </div> */}
+        {/* <div className="carousel-item">
           <img
             src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
             alt="Pizza"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
